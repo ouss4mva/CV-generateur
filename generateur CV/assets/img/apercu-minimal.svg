@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="300" height="400" fill="#ffffff"/>
+<!-- entete fine, sans couleur -->
+<text x="24" y="46" font-size="22" font-weight="300" letter-spacing="-0.5" fill="#1d2333">Said Saadouni</text>
+<text x="24" y="60" font-size="8" fill="#7a8091" letter-spacing="2.4">DEVELOPPEUSE WEB FULL STACK</text>
+
+<!-- bande de contact 3 colonnes -->
+<line x1="24" y1="78" x2="276" y2="78" stroke="#e3e6ee" stroke-width="1"/>
+<text x="24" y="94" font-size="6" fill="#9aa1b1" letter-spacing="1">EMAIL</text>
+<text x="24" y="106" font-size="6.6" fill="#1d2333">said.sadouni@estn.ma</text>
+<text x="118" y="94" font-size="6" fill="#9aa1b1" letter-spacing="1">TELEPHONE</text>
+<text x="118" y="106" font-size="6.6" fill="#1d2333">06 12 34 56 78</text>
+<text x="212" y="94" font-size="6" fill="#9aa1b1" letter-spacing="1">VILLE</text>
+<text x="212" y="106" font-size="6.6" fill="#1d2333">Nador</text>
+<line x1="24" y1="118" x2="276" y2="118" stroke="#e3e6ee" stroke-width="1"/>
+
+<!-- profil -->
+<text x="24" y="140" font-size="8" fill="#9aa1b1" letter-spacing="2">PROFIL</text>
+<text x="24" y="156" font-size="7.2" fill="#3a3f4d">Developpeuse passionnee avec 3 ans d'experience</text>
+<text x="24" y="168" font-size="7.2" fill="#3a3f4d">en developpement d'applications web.</text>
+
+<text x="24" y="196" font-size="8" fill="#9aa1b1" letter-spacing="2">EXPERIENCE</text>
+<text x="24" y="213" font-size="7.6" fill="#1d2333" font-weight="500">Developpeuse Web</text>
+<text x="276" y="213" font-size="6.4" fill="#9aa1b1" text-anchor="end">2022 - present</text>
+<text x="24" y="223" font-size="6.6" fill="#7a8091">TechNova</text>
+<text x="24" y="236" font-size="6.8" fill="#3a3f4d">Conception d'applications PHP/MySQL.</text>
+
+<text x="24" y="260" font-size="7.6" fill="#1d2333" font-weight="500">Stagiaire Developpement</text>
+<text x="276" y="260" font-size="6.4" fill="#9aa1b1" text-anchor="end">2021 - 2022</text>
+<text x="24" y="270" font-size="6.6" fill="#7a8091">Digital Solutions</text>
+<text x="24" y="283" font-size="6.8" fill="#3a3f4d">Maintenance d'un CRM interne.</text>
+
+<text x="24" y="308" font-size="8" fill="#9aa1b1" letter-spacing="2">FORMATION</text>
+<text x="24" y="325" font-size="7.6" fill="#1d2333" font-weight="500">Diplome Ingenieur Informatique</text>
+<text x="276" y="325" font-size="6.4" fill="#9aa1b1" text-anchor="end">2018 - 2021</text>
+<text x="24" y="335" font-size="6.6" fill="#7a8091">ENSAO</text>
+
+<text x="24" y="360" font-size="8" fill="#9aa1b1" letter-spacing="2">COMPETENCES</text>
+<text x="24" y="376" font-size="6.8" fill="#3a3f4d">PHP oriente objet   .   MySQL   .   JavaScript</text>
+</svg>

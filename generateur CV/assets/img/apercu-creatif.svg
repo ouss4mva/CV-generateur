@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="300" height="400" fill="#ffffff"/>
+
+<!-- entete -->
+<text x="24" y="38" font-size="20" font-weight="800" fill="#1a1a1a">SAID SAADOUNI</text>
+<text x="24" y="54" font-size="8.5" font-weight="700" letter-spacing="1" fill="#7b2f63">DEVELOPPEUSE WEB FULL STACK</text>
+
+<!-- ligne de contact inline -->
+<text x="24" y="72" font-size="7" font-weight="600" fill="#1d2333">Nador, Maroc<tspan fill="#d8c3cf">  |  </tspan>06 12 34 56 78<tspan fill="#d8c3cf">  |  </tspan>said.sadouni@estn.ma</text>
+<line x1="24" y1="82" x2="276" y2="82" stroke="#d8c3cf" stroke-width="1"/>
+
+<!-- competences cles (2 colonnes a puces) -->
+<text x="24" y="104" font-size="10" font-weight="700" fill="#7b2f63">COMPETENCES</text>
+<line x1="24" y1="109" x2="276" y2="109" stroke="#7b2f63" stroke-width="1.6"/>
+<circle cx="26" cy="123" r="1.6" fill="#7b2f63"/>
+<text x="32" y="126" font-size="7" fill="#1d2333">PHP oriente objet</text>
+<circle cx="150" cy="123" r="1.6" fill="#7b2f63"/>
+<text x="156" y="126" font-size="7" fill="#1d2333">Sage, SAP, Excel</text>
+<circle cx="26" cy="138" r="1.6" fill="#7b2f63"/>
+<text x="32" y="141" font-size="7" fill="#1d2333">MySQL</text>
+<circle cx="150" cy="138" r="1.6" fill="#7b2f63"/>
+<text x="156" y="141" font-size="7" fill="#1d2333">JavaScript</text>
+
+<!-- experience -->
+<text x="24" y="172" font-size="10" font-weight="700" fill="#7b2f63">EXPERIENCE PROFESSIONNELLE</text>
+<line x1="24" y1="177" x2="276" y2="177" stroke="#7b2f63" stroke-width="1.6"/>
+
+<text x="24" y="193" font-size="7.8" font-weight="700" fill="#1a1a1a">Developpeuse Web - TechNova</text>
+<text x="276" y="193" font-size="6.6" font-weight="700" fill="#7b2f63" text-anchor="end">2022 - present</text>
+<text x="24" y="204" font-size="6.6" fill="#4a4a4a" font-style="italic">Casablanca, Maroc</text>
+<circle cx="26" cy="214" r="1.3" fill="#7b2f63"/>
+<text x="32" y="217" font-size="6.6" fill="#333">Conception d'applis PHP/MySQL pour clients retail</text>
+<circle cx="26" cy="226" r="1.3" fill="#7b2f63"/>
+<text x="32" y="229" font-size="6.6" fill="#333">Integration API et tableaux de bord</text>
+
+<text x="24" y="252" font-size="7.8" font-weight="700" fill="#1a1a1a">Stagiaire Dev - Digital Solutions</text>
+<text x="276" y="252" font-size="6.6" font-weight="700" fill="#7b2f63" text-anchor="end">2021 - 2022</text>
+<text x="24" y="263" font-size="6.6" fill="#4a4a4a" font-style="italic">Rabat, Maroc</text>
+<circle cx="26" cy="273" r="1.3" fill="#7b2f63"/>
+<text x="32" y="276" font-size="6.6" fill="#333">Maintenance et tests d'un CRM interne</text>
+
+<!-- formation -->
+<text x="24" y="306" font-size="10" font-weight="700" fill="#7b2f63">FORMATION</text>
+<line x1="24" y1="311" x2="276" y2="311" stroke="#7b2f63" stroke-width="1.6"/>
+<text x="24" y="327" font-size="7.6" font-weight="700" fill="#1a1a1a">Diplome Ingenieur Informatique</text>
+<text x="276" y="327" font-size="6.6" font-weight="700" fill="#7b2f63" text-anchor="end">2018 - 2021</text>
+<text x="24" y="338" font-size="6.6" fill="#4a4a4a" font-style="italic">ENSAO, Oujda</text>
+
+<!-- langues -->
+<text x="24" y="364" font-size="10" font-weight="700" fill="#7b2f63">LANGUES</text>
+<line x1="24" y1="369" x2="276" y2="369" stroke="#7b2f63" stroke-width="1.6"/>
+<circle cx="26" cy="383" r="1.6" fill="#7b2f63"/>
+<text x="32" y="386" font-size="7" fill="#1d2333">Francais - maternelle</text>
+<circle cx="150" cy="383" r="1.6" fill="#7b2f63"/>
+<text x="156" y="386" font-size="7" fill="#1d2333">Anglais - courant</text>
+</svg>

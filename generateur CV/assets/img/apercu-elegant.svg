@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="300" height="400" fill="#ffffff"/>
+<!-- entete creme -->
+<rect x="0" y="0" width="300" height="92" fill="#ffffff"/>
+<rect x="24" y="18" width="52" height="64" fill="#efe6d4" stroke="#c9b896" stroke-width="1"/>
+<circle cx="50" cy="42" r="12" fill="#d8c7a4"/>
+<path d="M36 68 q14 -16 28 0 v10 h-28 z" fill="#d8c7a4"/>
+<text x="88" y="38" font-family="Georgia, serif" font-size="19" fill="#6b4f2a">Said Saadouni</text>
+<text x="88" y="54" font-size="8.5" fill="#8b7355" letter-spacing="2">DEVELOPPEUSE WEB FULL STACK</text>
+<text x="88" y="70" font-size="7" fill="#9a8b6f">said.sadouni@estn.ma   .   06 12 34 56 78</text>
+<line x1="0" y1="92" x2="300" y2="92" stroke="#e0d7c7" stroke-width="1"/>
+
+<!-- colonne principale gauche -->
+<text x="24" y="118" font-family="Georgia, serif" font-size="11" fill="#6b4f2a">Profil</text>
+<line x1="24" y1="124" x2="56" y2="124" stroke="#c9b896" stroke-width="1"/>
+<text x="24" y="138" font-size="7" fill="#5a4a33">Developpeuse passionnee, 3 ans</text>
+<text x="24" y="149" font-size="7" fill="#5a4a33">d'experience en applications web.</text>
+
+<text x="24" y="174" font-family="Georgia, serif" font-size="11" fill="#6b4f2a">Experience</text>
+<line x1="24" y1="180" x2="56" y2="180" stroke="#c9b896" stroke-width="1"/>
+<text x="24" y="196" font-size="7.6" fill="#3f3424" font-weight="600">Developpeuse Web - TechNova</text>
+<text x="24" y="207" font-size="6.6" fill="#9a8b6f" font-style="italic">2022 - present</text>
+<text x="24" y="219" font-size="6.8" fill="#5a4a33">Conception d'applications PHP/MySQL</text>
+<text x="24" y="230" font-size="6.8" fill="#5a4a33">pour des clients du secteur retail.</text>
+
+<text x="24" y="252" font-size="7.6" fill="#3f3424" font-weight="600">Stagiaire Dev - Digital Solutions</text>
+<text x="24" y="263" font-size="6.6" fill="#9a8b6f" font-style="italic">2021 - 2022</text>
+<text x="24" y="275" font-size="6.8" fill="#5a4a33">Maintenance et tests d'un CRM</text>
+<text x="24" y="286" font-size="6.8" fill="#5a4a33">interne, module JavaScript.</text>
+
+<text x="24" y="312" font-family="Georgia, serif" font-size="11" fill="#6b4f2a">Formation</text>
+<line x1="24" y1="318" x2="56" y2="318" stroke="#c9b896" stroke-width="1"/>
+<text x="24" y="334" font-size="7.6" fill="#3f3424" font-weight="600">Diplome Ingenieur Informatique</text>
+<text x="24" y="345" font-size="6.6" fill="#9a8b6f" font-style="italic">ENSAO - 2018 - 2021</text>
+
+<!-- colonne laterale creme a droite -->
+<rect x="196" y="92" width="104" height="308" fill="#faf6ef"/>
+<text x="214" y="118" font-family="Georgia, serif" font-size="10" fill="#6b4f2a">Contact</text>
+<text x="214" y="134" font-size="6.6" fill="#5a4a33">said.sadouni@estn.ma</text>
+<text x="214" y="146" font-size="6.6" fill="#5a4a33">06 12 34 56 78</text>
+<text x="214" y="158" font-size="6.6" fill="#5a4a33">Selouane, Nador</text>
+
+<text x="214" y="184" font-family="Georgia, serif" font-size="10" fill="#6b4f2a">Competences</text>
+<text x="214" y="200" font-size="6.6" fill="#5a4a33">PHP oriente objet</text>
+<text x="214" y="212" font-size="6.6" fill="#5a4a33">MySQL</text>
+<text x="214" y="224" font-size="6.6" fill="#5a4a33">JavaScript</text>
+
+<text x="214" y="250" font-family="Georgia, serif" font-size="10" fill="#6b4f2a">Langues</text>
+<text x="214" y="266" font-size="6.6" fill="#5a4a33">Francais - maternelle</text>
+<text x="214" y="278" font-size="6.6" fill="#5a4a33">Anglais - courant</text>
+</svg>

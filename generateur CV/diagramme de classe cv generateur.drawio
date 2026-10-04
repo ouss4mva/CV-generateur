@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagramme de classe" id="cv-class-diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===================== User ===================== -->
+        <mxCell id="user" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=1;resizeParent=0;resizeParentMax=0;resizeLast=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="260" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="userAttrs" value="-id: int&#10;-nom: string&#10;-prenom: string&#10;-email: string&#10;-motDePasse: string&#10;-dateCreation: Date" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;overflow=hidden;whiteSpace=wrap;fontSize=11;portConstraint=eastwest;" vertex="1" parent="user">
+          <mxGeometry y="26" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="userSep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;points=[];portConstraint=eastwest;" vertex="1" parent="user">
+          <mxGeometry y="134" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="userMethods" value="+User(nom, prenom, email, motDePasse)&#10;+getId(): int&#10;+getNom(): string&#10;+setNom(nom): void&#10;+getPrenom(): string&#10;+setPrenom(prenom): void&#10;+getEmail(): string&#10;+setEmail(email): void&#10;+setMotDePasse(motDePasse): void&#10;+getDateCreation(): Date" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;overflow=hidden;whiteSpace=wrap;fontSize=11;portConstraint=eastwest;" vertex="1" parent="user">
+          <mxGeometry y="142" width="260" height="172" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== CV ===================== -->
+        <mxCell id="cv" value="CV" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=1;resizeParent=0;resizeParentMax=0;resizeLast=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="320" height="554" as="geometry" />
+        </mxCell>
+        <mxCell id="cvAttrs" value="-id: int&#10;-idUser: int&#10;-idTemplate: int&#10;-titre: string&#10;-nom: string&#10;-prenom: string&#10;-email: string&#10;-telephone: string&#10;-adresse: string&#10;-photo: string&#10;-posteRecherche: string&#10;-experiences: string&#10;-formations: string&#10;-competences: string&#10;-langues: string&#10;-cheminPdf: string&#10;-dateCreation: Date&#10;-dateModification: Date" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;overflow=hidden;whiteSpace=wrap;fontSize=11;portConstraint=eastwest;" vertex="1" parent="cv">
+          <mxGeometry y="26" width="320" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cvSep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;points=[];portConstraint=eastwest;" vertex="1" parent="cv">
+          <mxGeometry y="326" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cvMethods" value="+getId(): int&#10;+getTitre(): string&#10;+setTitre(titre): void&#10;+getExperiences(): string&#10;+setExperiences(experiences): void&#10;+getFormations(): string&#10;+setFormations(formations): void&#10;+getCompetences(): string&#10;+setCompetences(competences): void&#10;+getLangues(): string&#10;+setLangues(langues): void&#10;+setCheminPdf(cheminPdf): void&#10;+getDateModification(): Date" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;overflow=hidden;whiteSpace=wrap;fontSize=11;portConstraint=eastwest;" vertex="1" parent="cv">
+          <mxGeometry y="334" width="320" height="220" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== Template ===================== -->
+        <mxCell id="template" value="Template" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=1;resizeParent=0;resizeParentMax=0;resizeLast=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="800" y="60" width="260" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="templateAttrs" value="-id: int&#10;-nom: string&#10;-imageApercu: string&#10;-cheminFichier: string&#10;-avecPhoto: boolean" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;overflow=hidden;whiteSpace=wrap;fontSize=11;portConstraint=eastwest;" vertex="1" parent="template">
+          <mxGeometry y="26" width="260" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="templateSep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;points=[];portConstraint=eastwest;" vertex="1" parent="template">
+          <mxGeometry y="118" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="templateMethods" value="+Template(nom, imageApercu, cheminFichier, avecPhoto)&#10;+getId(): int&#10;+getNom(): string&#10;+getCheminFichier(): string&#10;+isAvecPhoto(): boolean" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;overflow=hidden;whiteSpace=wrap;fontSize=11;portConstraint=eastwest;" vertex="1" parent="template">
+          <mxGeometry y="126" width="260" height="92" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== Relations ===================== -->
+        <mxCell id="edge1" value="possède" style="endArrow=open;html=1;elbow=none;rounded=0;fontSize=11;" edge="1" parent="1" source="user" target="cv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="utilisé par" style="endArrow=open;html=1;elbow=none;rounded=0;fontSize=11;" edge="1" parent="1" source="template" target="cv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

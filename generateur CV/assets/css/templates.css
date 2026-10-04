@@ -1,0 +1,386 @@
+.cv-document {
+    width: 794px;
+    min-height: 1123px;
+    background: #ffffff;
+    color: #1d2333;
+    box-shadow: 0 16px 40px rgba(17, 24, 42, 0.16);
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 13.5px;
+    line-height: 1.55;
+}
+
+.cv-document .cv-entete {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.cv-document .cv-photo img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #e5e9f2;
+}
+
+.cv-document .cv-nom {
+    font-size: 32px;
+    line-height: 1.15;
+    letter-spacing: -0.4px;
+}
+
+.cv-document .cv-poste {
+    font-size: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.cv-document .cv-corps {
+    display: grid;
+    gap: 34px;
+}
+
+.cv-document .cv-bloc {
+    margin-bottom: 24px;
+}
+
+.cv-document .cv-bloc h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    margin-bottom: 12px;
+}
+
+.cv-document .cv-contact,
+.cv-document .cv-liste-simple {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    word-break: break-word;
+}
+
+.cv-document .cv-entree {
+    margin-bottom: 16px;
+}
+
+.cv-document .cv-entree-titre {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 15px;
+}
+
+.cv-document .cv-periode {
+    font-size: 12.5px;
+    white-space: nowrap;
+    opacity: 0.75;
+}
+
+.cv-document .cv-entree-sous-titre {
+    font-size: 13.5px;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+.cv-document .cv-entree-description {
+    margin-top: 4px;
+    font-size: 13px;
+    white-space: pre-line;
+}
+
+.cv-valeur-vide {
+    opacity: 0.4;
+}
+
+.cv-modele-1 {
+    padding: 54px 60px;
+}
+
+.cv-modele-1 .cv-entete {
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 3px double #1d2333;
+    padding-bottom: 22px;
+    margin-bottom: 30px;
+}
+
+.cv-modele-1 .cv-nom {
+    font-family: Georgia, "Times New Roman", serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.cv-modele-1 .cv-poste {
+    color: #4a5163;
+    margin-top: 8px;
+}
+
+.cv-modele-1 .cv-corps {
+    grid-template-columns: 1fr 2fr;
+}
+
+.cv-modele-1 .cv-bloc h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    border-bottom: 1px solid #c8cedd;
+    padding-bottom: 6px;
+}
+
+.cv-modele-2 {
+    padding: 0;
+}
+
+.cv-modele-2 .cv-entete {
+    background: #14213d;
+    color: #ffffff;
+    padding: 40px 48px;
+}
+
+.cv-modele-2 .cv-photo img {
+    border-radius: 12px;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+}
+
+.cv-modele-2 .cv-poste {
+    color: #8fb0ff;
+    margin-top: 6px;
+}
+
+.cv-modele-2 .cv-corps {
+    grid-template-columns: 1fr 1.9fr;
+    padding: 40px 48px;
+}
+
+.cv-modele-2 .cv-bloc h2 {
+    color: #14213d;
+    border-left: 4px solid #2f6bff;
+    padding-left: 10px;
+}
+
+.cv-modele-2 .cv-liste-simple li {
+    background: #eef3ff;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.cv-modele-3 {
+    padding: 0;
+}
+
+.cv-modele-3 .cv-entete {
+    padding: 46px 52px 26px;
+    border-bottom: 1px solid #e0d7c7;
+}
+
+.cv-modele-3 .cv-photo img {
+    border-radius: 0;
+    width: 120px;
+    height: 150px;
+    border: 1px solid #c9b896;
+}
+
+.cv-modele-3 .cv-nom {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 36px;
+    color: #6b4f2a;
+}
+
+.cv-modele-3 .cv-poste {
+    color: #8b7355;
+    letter-spacing: 2.6px;
+}
+
+.cv-modele-3 .cv-corps {
+    grid-template-columns: 2fr 1fr;
+    padding: 34px 52px 52px;
+}
+
+.cv-modele-3 .cv-colonne-laterale {
+    order: 2;
+    background: #faf6ef;
+    padding: 24px;
+}
+
+.cv-modele-3 .cv-colonne-principale {
+    order: 1;
+}
+
+.cv-modele-3 .cv-bloc h2 {
+    color: #6b4f2a;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.cv-modele-4 {
+    padding: 64px 66px;
+    font-size: 13px;
+}
+
+.cv-modele-4 .cv-entete {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.cv-modele-4 .cv-nom {
+    font-weight: 300;
+    font-size: 38px;
+    letter-spacing: -1px;
+}
+
+.cv-modele-4 .cv-poste {
+    color: #7a8091;
+    letter-spacing: 3.4px;
+    font-size: 12.5px;
+    margin-top: 6px;
+}
+
+.cv-modele-4 .cv-corps {
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.cv-modele-4 .cv-colonne-laterale {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    border-top: 1px solid #e3e6ee;
+    border-bottom: 1px solid #e3e6ee;
+    padding: 24px 0;
+    margin-bottom: 28px;
+}
+
+.cv-modele-4 .cv-bloc h2 {
+    font-size: 11.5px;
+    letter-spacing: 2.4px;
+    color: #9aa1b1;
+}
+
+/* ===== Modele 5 - "Creatif" : mise en page ATS a une colonne, accent mauve ===== */
+
+:root {
+    --mauve-5: #7b2f63;
+    --mauve-5-clair: #d8c3cf;
+}
+
+.cv-modele-5 {
+    padding: 52px 58px;
+}
+
+/* Entete : nom + poste empiles a gauche, sans photo (style CV "a l'americaine") */
+.cv-modele-5 .cv-entete {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding-bottom: 0;
+}
+
+.cv-modele-5 .cv-photo {
+    display: none;
+}
+
+.cv-modele-5 .cv-nom {
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #1a1a1a;
+}
+
+.cv-modele-5 .cv-poste {
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: var(--mauve-5);
+}
+
+/* Corps : pas de grid-template-columns => empilement naturel en une seule colonne */
+.cv-modele-5 .cv-corps {
+    gap: 0;
+    padding: 0;
+    margin-top: 18px;
+}
+
+.cv-modele-5 .cv-colonne-laterale,
+.cv-modele-5 .cv-colonne-principale {
+    background: none;
+    color: #1d2333;
+    padding: 0;
+}
+
+/* Bloc "Contact" (1er bloc de la colonne laterale) : transforme en ligne inline sous l'entete */
+.cv-modele-5 .cv-colonne-laterale > .cv-bloc:first-of-type {
+    border-bottom: 1px solid var(--mauve-5-clair);
+    padding-bottom: 16px;
+    margin-bottom: 22px;
+}
+
+.cv-modele-5 .cv-colonne-laterale > .cv-bloc:first-of-type h2 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.cv-modele-5 .cv-colonne-laterale > .cv-bloc:first-of-type .cv-contact {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #1d2333;
+}
+
+.cv-modele-5 .cv-colonne-laterale > .cv-bloc:first-of-type .cv-contact li:not(:last-child)::after {
+    content: "|";
+    margin: 0 10px;
+    font-weight: 400;
+    color: var(--mauve-5-clair);
+}
+
+/* Titres de section : libelle + trait mauve pleine largeur, commun a toutes les sections */
+.cv-modele-5 .cv-bloc h2 {
+    color: var(--mauve-5);
+    border-bottom: 2px solid var(--mauve-5);
+    padding-bottom: 6px;
+    font-size: 13.5px;
+}
+
+/* Competences / Langues : liste a puces sur 2 colonnes, comme "Competences cles" du modele de reference */
+.cv-modele-5 .cv-liste-simple {
+    display: block;
+    column-count: 2;
+    column-gap: 28px;
+}
+
+.cv-modele-5 .cv-liste-simple li {
+    position: relative;
+    padding-left: 14px;
+    margin-bottom: 6px;
+    font-size: 12.5px;
+    break-inside: avoid;
+}
+
+.cv-modele-5 .cv-liste-simple li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--mauve-5);
+}
+
+/* Experiences / Formations : titre + date alignee a droite (cv-entree-titre est deja en flex space-between) */
+.cv-modele-5 .cv-entree-titre strong {
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.cv-modele-5 .cv-periode {
+    color: var(--mauve-5);
+    font-weight: 700;
+    font-size: 12px;
+    opacity: 1;
+}
+
+.cv-modele-5 .cv-entree-sous-titre {
+    color: #4a4a4a;
+}
